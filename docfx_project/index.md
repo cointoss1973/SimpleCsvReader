@@ -25,13 +25,13 @@ package SimpleCsvReader <<rectangle>>{
 skinparam shadowing false
 hide footbox
 participant Program as User
-participant SimpleCsvReader
+participant CsvReader as reader
 database csvfile
-User -> SimpleCsvReader : Read(fileName)
+User -> reader : Read(fileName)
 loop all lines 
-SimpleCsvReader -> csvfile : Read
-SimpleCsvReader <-- csvfile
+reader -> csvfile : Read
+reader <-- csvfile
 end
-User <-- SimpleCsvReader : List<string[]>
+User <-- reader : List<string[]>
 @enduml
 ```
