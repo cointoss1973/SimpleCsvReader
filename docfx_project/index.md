@@ -15,7 +15,7 @@ package SimpleCsvReader <<rectangle>>{
 
 
 ## Usage
-### Load a CSV file
+### How to read a CSV file
 ```csharp
             List<string[]> rows = CsvReader.Read(fileName);
 ```
@@ -28,8 +28,10 @@ participant Program as User
 participant SimpleCsvReader
 database csvfile
 User -> SimpleCsvReader : Read(fileName)
+loop all lines 
 SimpleCsvReader -> csvfile : Read
 SimpleCsvReader <-- csvfile
+end
 User <-- SimpleCsvReader : List<string[]>
 @enduml
 ```
