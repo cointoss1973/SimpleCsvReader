@@ -60,6 +60,10 @@
       "default",
       "DocFx.Plugins.PlantUml/template"
     ],
+    "markdownEngineProperties": {
+      "plantUml.renderingMode":"local",
+      "plantUml.localPlantUmlPath": "DocFx.Plugins.PlantUml/plantuml.jar"
+    },
     "postProcessors": [],
     "noLangKeyword": false,
     "keepFileLink": false,
