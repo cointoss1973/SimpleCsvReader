@@ -58,6 +58,7 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
+      "templates/material",
       "DocFx.Plugins.PlantUml/template"
     ],
     "markdownEngineProperties": {
