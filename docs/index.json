@@ -1,0 +1,42 @@
+{
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "SimpleCsvReader API Reference",
+    "keywords": "SimpleCsvReader API Reference Class name Feature CsvReader CSV Reader"
+  },
+  "api/SimpleCsvReader.CsvReader.html": {
+    "href": "api/SimpleCsvReader.CsvReader.html",
+    "title": "Class CsvReader",
+    "keywords": "Class CsvReader Inheritance System.Object CsvReader Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : SimpleCsvReader Assembly : SimpleCsvReader.dll Syntax public static class CsvReader Methods | Improve this Doc View Source Read(String) Read all rows from csv file. Declaration public static List<string[]> Read(string fileName) Parameters Type Name Description System.String fileName file path Returns Type Description System.Collections.Generic.List < System.String []>"
+  },
+  "api/SimpleCsvReader.html": {
+    "href": "api/SimpleCsvReader.html",
+    "title": "Namespace SimpleCsvReader",
+    "keywords": "Namespace SimpleCsvReader Classes CsvReader"
+  },
+  "api/SimpleCsvReader.Tests.CsvReaderTest.html": {
+    "href": "api/SimpleCsvReader.Tests.CsvReaderTest.html",
+    "title": "Class CsvReaderTest",
+    "keywords": "Class CsvReaderTest Inheritance System.Object CsvReaderTest Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) System.Object.ToString() Namespace : SimpleCsvReader.Tests Assembly : SimpleCsvReader.Tests.dll Syntax public class CsvReaderTest Methods | Improve this Doc View Source ReadTest(String) Declaration public void ReadTest(string fileName) Parameters Type Name Description System.String fileName"
+  },
+  "api/SimpleCsvReader.Tests.html": {
+    "href": "api/SimpleCsvReader.Tests.html",
+    "title": "Namespace SimpleCsvReader.Tests",
+    "keywords": "Namespace SimpleCsvReader.Tests Classes CsvReaderTest Windows10"
+  },
+  "api/SimpleCsvReader.Tests.Windows10.html": {
+    "href": "api/SimpleCsvReader.Tests.Windows10.html",
+    "title": "Class Windows10",
+    "keywords": "Class Windows10 Inheritance System.Object Windows10 Inherited Members System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() System.Object.ReferenceEquals(System.Object, System.Object) Namespace : SimpleCsvReader.Tests Assembly : SimpleCsvReader.Tests.dll Syntax public class Windows10 Properties | Improve this Doc View Source Build Declaration public string Build { get; set; } Property Value Type Description System.String | Improve this Doc View Source MarketingName Declaration public string MarketingName { get; set; } Property Value Type Description System.String | Improve this Doc View Source ReleaseDate Declaration public string ReleaseDate { get; set; } Property Value Type Description System.String | Improve this Doc View Source Version Declaration public string Version { get; set; } Property Value Type Description System.String Methods | Improve this Doc View Source ToString() Declaration public override string ToString() Returns Type Description System.String Overrides System.Object.ToString()"
+  },
+  "articles/intro.html": {
+    "href": "articles/intro.html",
+    "title": "Introductions",
+    "keywords": "Introductions Class Diagram <!--MD5=[77ec280c307b73c51c9ea4cb85bf7d81] class CsvReader--> CsvReader Read() <!--MD5=[2ee28ffb721aa0a165acacd90e099d26] @startuml class CsvReader { Read() } @enduml PlantUML version 1.2020.19(Tue Oct 13 00:10:01 JST 2020) (GPL source distribution) Java Runtime: OpenJDK Runtime Environment JVM: OpenJDK 64-Bit Server VM Default Encoding: MS932 Language: ja Country: JP -->"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "SimpleCsvReader",
+    "keywords": "SimpleCsvReader Introduction SimpleCsvReader provide only CsvReader class. <!--MD5=[d370f427ae2695ee6c3c23e2697ea24a] cluster SimpleCsvReader--> SimpleCsvReader <!--MD5=[77ec280c307b73c51c9ea4cb85bf7d81] class CsvReader--> CsvReader Read(fileName) <!--MD5=[964d628c4c3bb27712beb8d163b0d865] @startuml skinparam shadowing false package SimpleCsvReader <<rectangle>>{ class CsvReader { + Read(fileName) } } @enduml PlantUML version 1.2020.19(Tue Oct 13 00:10:01 JST 2020) (GPL source distribution) Java Runtime: OpenJDK Runtime Environment JVM: OpenJDK 64-Bit Server VM Default Encoding: MS932 Language: ja Country: JP --> Usage How to read a CSV file List<string[]> rows = CsvReader.Read(fileName); Program CsvReader csvfile Read(fileName) loop [all lines] Read List<string[]> <!--MD5=[a2a439a6578cc3a66d01848412d5b983] @startuml skinparam shadowing false hide footbox participant Program as User participant CsvReader as reader database csvfile User -> reader : Read(fileName) loop all lines reader -> csvfile : Read reader <- - csvfile end User <- - reader : List<string[]> @enduml PlantUML version 1.2020.19(Tue Oct 13 00:10:01 JST 2020) (GPL source distribution) Java Runtime: OpenJDK Runtime Environment JVM: OpenJDK 64-Bit Server VM Default Encoding: MS932 Language: ja Country: JP -->"
+  }
+}

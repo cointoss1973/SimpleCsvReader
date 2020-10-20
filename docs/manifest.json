@@ -4,15 +4,24 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "api/SimpleCsvReader.CsvReader.yml",
       "output": {
         ".html": {
           "relative_path": "api/SimpleCsvReader.CsvReader.html",
-          "hash": "5pqBkjXB/RAfQYXxMTEMeg=="
+          "hash": "sE2p5cOo6QibR2XBG3dHKQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +30,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SimpleCsvReader.Tests.CsvReaderTest.html",
-          "hash": "asUMMIfoyPWD5xzwpejK/A=="
+          "hash": "ZKz7YTety2XocPGvXC2XWg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +42,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SimpleCsvReader.Tests.Windows10.html",
-          "hash": "cpDpDWFXZUicW0e9Z2iwgg=="
+          "hash": "XtGYQs943lLu6aylBdpynw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +54,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SimpleCsvReader.Tests.html",
-          "hash": "A5uMTteWtI4MlUmpxunW3Q=="
+          "hash": "9YNfb0bLdEfZCshV6IjOXQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +66,10 @@
       "output": {
         ".html": {
           "relative_path": "api/SimpleCsvReader.html",
-          "hash": "GMc8bVU1UJT4JjzHbti01g=="
+          "hash": "Wth8a1WFnwdsELApmAg+vA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +78,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "Jf4x2Qg8QAKmXE5G2MMTUg=="
+          "hash": "dVW/ADsQbJb/jqVNyf0qMQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +102,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "0StaOvEPyhWLvl8+iVZF3w=="
+          "hash": "GwB/LLWYNXpiro59nPUnfw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -117,10 +126,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "K/L47Y3NuEPKawe2Esd3Ag=="
+          "hash": "npdVLG1sGx/rZ5dmJUnPUw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -168,8 +177,8 @@
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

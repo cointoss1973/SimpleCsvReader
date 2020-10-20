@@ -61,11 +61,14 @@
       "templates/material",
       "DocFx.Plugins.PlantUml/template"
     ],
+    "globalMetadata": {
+      "_enableSearch": "true"
+    },
     "markdownEngineProperties": {
       "plantUml.renderingMode":"local",
       "plantUml.localPlantUmlPath": "DocFx.Plugins.PlantUml/plantuml.jar"
     },
-    "postProcessors": [],
+    "postProcessors": ["ExtractSearchIndex"],
     "noLangKeyword": false,
     "keepFileLink": false,
     "cleanupCacheHistory": false,
