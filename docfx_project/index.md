@@ -1,5 +1,7 @@
 # SimpleCsvReader 
 
+"SimpleCsvReader" is a .NET library that reads a CSV file.
+
 ## Introduction
 SimpleCsvReader provide only CsvReader class.
 ```plantuml
@@ -15,7 +17,7 @@ package SimpleCsvReader <<rectangle>>{
 
 
 ## Usage
-### How to read a CSV file
+### Read a CSV file
 ```csharp
             List<string[]> rows = CsvReader.Read(fileName);
 ```
@@ -24,14 +26,13 @@ package SimpleCsvReader <<rectangle>>{
 @startuml
 skinparam shadowing false
 hide footbox
-participant Program as User
 participant CsvReader as reader
 database csvfile
-User -> reader : Read(fileName)
+[-> reader : Read(fileName)
 loop all lines 
 reader -> csvfile : Read
 reader <-- csvfile
 end
-User <-- reader : List<string[]>
+[<-- reader : List<string[]>
 @enduml
 ```
