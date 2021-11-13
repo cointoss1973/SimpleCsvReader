@@ -1,0 +1,7 @@
+version: 1.0.{build}
+image: Visual Studio 2022
+before_build:
+- cmd: dotnet restore src\SimpleCsvReader.sln
+build:
+  project: src\SimpleCsvReader.sln
+  verbosity: minimal
